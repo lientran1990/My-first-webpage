@@ -1,0 +1,101 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-color: #edefee;
+}
+#navigation {
+  display: flex;
+  justify-content: center;
+  background-color: #333333;
+  margin: 16px;
+  padding: 10px 0px 10px 0px;
+  border-radius: 10px;
+  font-size: larger;
+}
+#navigation a {
+  color: white;
+  margin-right: 8px;
+}
+#navigation a:hover {
+  color: red;
+}
+.main-container {
+  background-image: url("https://taste.b-cdn.net/wp-content/uploads/2023/08/little-lemon-3.jpeg");
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  color: white;
+  margin: 16px;
+  height: 180px;
+  display: flex;
+  border-radius: 10px;
+}
+.main-container p {
+  font-size: 12px;
+  color: white;
+  padding-left: 15px;
+  padding-right: 350px;
+}
+h1 {
+  margin-top: 30px;
+  padding-left: 15px;
+  font-size: 40px;
+}
+.main-container h2 {
+  padding-left: 15px;
+  font-size: 30px;
+}
+/* .row-container {
+  margin: 3px;
+} */
+.column {
+  float: left;
+  height: 400px;
+  background-color: #f4e5d6;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 16px;
+  border-radius: 10px;
+  text-align: left;
+}
+.column .time {
+  padding-left: 50px;
+}
+p {
+  font-weight: 100;
+  font-family: Cambria;
+}
+.copyright {
+  display: flex;
+  padding-right: 20px;
+  margin-left: 31px;
+  /* align-items: stretch; */
+}
+.copyright p {
+  text-align: right;
+  margin-top: 0;
+  padding-right: 16px;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+div h1 {
+  /* width: 10px;
+    height: 100px;
+    background: red; */
+  position: relative;
+  animation: mymove 15s infinite;
+}
+
+@keyframes mymove {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 100%;
+  }
+}
